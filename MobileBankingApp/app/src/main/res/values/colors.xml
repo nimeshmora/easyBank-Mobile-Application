@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="my_blue">#3498DB</color>
+    <color name="my_green">#77D065</color>
+    <color name="my_purple">#B455B6</color>
+    <color name="my_gray">#738182</color>
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+    <color name="my_brown">#BCAAA4</color>
+    <color name="my_pink">#F06292</color>
+    <color name="my_grey">#F0F0F0 </color>
+    <color name="link_blue">#3300CC</color>
+</resources>

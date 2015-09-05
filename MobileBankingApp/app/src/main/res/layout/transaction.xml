@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Number of Reciever"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/receiveAc"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount of Money"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/amount"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/sendtrans" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="85dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Number"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/senderAc"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

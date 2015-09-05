@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/payment"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bill_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="30px"
+            >
+            <RadioButton android:id="@+id/water_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water Bill"
+
+                android:textColor="@color/my_grey"
+                android:textSize="20dp"
+                android:checked="true"
+                />
+            <RadioButton android:id="@+id/elec_bill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electricity Bill"
+
+                android:textColor="@color/my_grey"
+                />
+            <RadioButton android:id="@+id/market_bill"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Market Bill"
+
+                android:textColor="@color/my_grey"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/bill_select_btn"
+            android:text="OK"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="150px"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My A/C No: "
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="30px"
+            android:textSize="24dp"
+            android:textColor="@color/my_grey"
+            />
+
+        <EditText
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ac_no"
+            android:layout_marginTop="40px"
+
+            />
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bill_type_payment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="30px"
+            >
+            <RadioButton android:id="@+id/water_bill_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water Bill"
+
+                android:textColor="@color/my_grey"
+                android:textSize="20dp"
+                android:checked="true"
+                />
+            <RadioButton android:id="@+id/elec_bill_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electricity Bill"
+
+                android:textColor="@color/my_grey"
+                />
+            <RadioButton android:id="@+id/market_bill_payment"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Market Bill"
+
+                android:textColor="@color/my_grey"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/bill_select_btn_payment"
+            android:text="Pay"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="150px"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My A/C No: "
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="30px"
+            android:textSize="24dp"
+            android:textColor="@color/my_grey"
+            />
+
+        <EditText
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ac_no_payment"
+            android:layout_marginTop="40px"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

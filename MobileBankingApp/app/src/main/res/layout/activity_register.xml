@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="28dp"
+            android:textColor="@color/my_grey"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="180dp"
+            android:textSize="28dp"
+            android:textColor="@color/my_grey"
+            android:layout_marginTop="195dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/reg_name" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="28dp"
+            android:textColor="@color/my_grey"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:width="180dp"
+            android:textSize="28dp"
+            android:textColor="@color/my_grey"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/reg_pass" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:layout_marginLeft="240dp"
+            android:id="@+id/passchange_btn"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
