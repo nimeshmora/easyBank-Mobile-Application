@@ -81,6 +81,7 @@ public class PayActivity extends Activity {
         radioBillGroup_pay = (RadioGroup) findViewById(R.id.bill_type_payment);
 
         btnDisplay_pay = (Button) findViewById(R.id.bill_select_btn_payment);
+        final EditText amount = (EditText)findViewById(R.id.amount_payment);
 
         btnDisplay_pay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,12 +103,12 @@ public class PayActivity extends Activity {
                     }else {
                         String RecieverNumRetrieve = cur.getString(cur.getColumnIndex("Acnum"));
 
-
-
-
-
-                        sendSMS("0719752639", "tr," + myAcNo_pay.getText().toString() + ":" + RecieverNumRetrieve.toString() + ":" + "200");
+                        sendSMS("0719752639", "pay," + myAcNo_pay.getText().toString() + ":" + RecieverNumRetrieve.toString() + ":" + amount.getText().toString());
                         Toast.makeText(PayActivity.this, "Wait for Payment!...", Toast.LENGTH_LONG).show();
+
+
+
+
 
                     }
                     db.close();

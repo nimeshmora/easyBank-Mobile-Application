@@ -141,7 +141,7 @@
     </LinearLayout>
 
 
-    <LinearLayout
+       <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -150,9 +150,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="My A/C No: "
-            android:layout_marginTop="40px"
-            android:layout_marginLeft="30px"
-            android:textSize="24dp"
+            android:layout_marginTop="5px"
+            android:layout_marginLeft="40px"
+            android:textSize="20dp"
             android:textColor="@color/my_grey"
             />
 
@@ -160,12 +160,39 @@
             android:layout_width="198dp"
             android:layout_height="wrap_content"
             android:id="@+id/ac_no_payment"
-            android:layout_marginTop="40px"
+
 
             />
 
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginTop="5px"
+            android:layout_marginLeft="40px"
+            android:textSize="20dp"
+            android:textColor="@color/my_grey"
+            />
+
+        <EditText
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/amount_payment"
+            android:layout_marginLeft="70px"
+
+            />
+
+
+    </LinearLayout>
+
 
 
 
